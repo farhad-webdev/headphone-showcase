@@ -6,10 +6,10 @@ import Lenis from "@studio-freight/lenis";
 gsap.registerPlugin(ScrollTrigger);
 
 const ASSETS = {
-  hero: "/assets/headphone-01.png",
-  side: "/assets/headphone-02.png",
-  detail: "/assets/headphone-03.png",
-  final: "/assets/headphone-04.png",
+  hero: `${import.meta.env.BASE_URL}assets/headphone-01.png`,
+  side: `${import.meta.env.BASE_URL}assets/headphone-02.png`,
+  detail: `${import.meta.env.BASE_URL}assets/headphone-03.png`,
+  final: `${import.meta.env.BASE_URL}assets/headphone-04.png`,
 };
 
 const features = [
